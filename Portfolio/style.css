@@ -1,0 +1,370 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url("assets/landingimg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    position: relative;
+    margin: 0;
+    min-height: 100%;
+}
+
+/*  Header */
+
+header {
+    font-weight: bold;
+    border-top: solid black 5px;
+    border-bottom: solid black 5px;
+    padding: 17.5px;
+    background-color: #36494E;
+    display: flex;
+    justify-content: left;
+}
+
+
+nav {
+    display: flex;
+}
+
+.logo {
+    margin-right: 10px;
+}
+
+.navigation-button {
+    min-width: 50px;
+    width: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.navigation-button li {
+    list-style-type: none;
+    color: white;
+    font-size: 12px;
+    padding: 5px 14px;
+    margin: 12px;
+    border-style: solid;
+    border-radius: 50px;
+}   
+
+.navigation-button li:hover {
+    background-color: #56818d;
+    transition: 0.2s;
+    border-color: white;
+
+}
+
+
+
+
+/* Landing */
+
+.landing {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 170px;
+    height: 100vh;
+}
+
+
+.dp {
+    width: 375px;
+    border: solid black;
+    border-radius: 12px;
+    opacity: 0.9;
+    margin: 5px;
+
+}
+.textbox {
+    width: 375px;
+    text-align: center;
+    background-color: #eb0869;
+    opacity: 0.8;
+    border-radius: 12px;
+    border: solid black;
+    padding: 20px;
+    margin: 5px;
+}
+
+
+
+h1 {
+    font-size: 35px;
+}
+
+h3 {
+    padding: 4px;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.aboutme {
+    min-width: 375px;
+    width: 375px;
+    height: 450px;
+    border: solid black;
+    background-color: #36494E;
+    opacity: 0.9;
+    border-radius: 12px;
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+
+.aboutme h2 {
+    font-size: 40px;
+    padding-bottom: 10px;
+    border-bottom: solid white ;
+    margin-bottom: 40px;
+}
+
+.aboutme p {
+    text-align: justify;
+}
+
+.resumebutton {
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 100px;
+    border: solid white;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: #eb0869;
+}
+
+.resumebutton:hover {
+    background-color: #f14892;
+}
+
+.homeicons {
+    width: 100px;
+    display: inline-flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 13px;
+    list-style-type: none;
+}
+
+.homeicons li img {
+    width: 64px;
+}
+
+
+/* Footer */
+
+.medialinks li { 
+    display: inline;
+    margin: 4px;
+}
+li a img {
+    width: 64px;
+    border: white solid;
+    border-radius: 20px;
+}
+li a img:hover{
+    opacity: 0.5;
+    transition: 0.2s;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+}
+footer {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #36494E;
+    border-top: solid black 5px;
+    border-bottom: solid black 5px;
+    bottom:0%;
+
+    
+}
+
+/* CONTACT */
+
+.contact {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/assets/landingimg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.contacthead {
+    padding: 10px;
+    margin-bottom: 65px;
+    width: 100%;
+    height: 130px;
+    border: 1px solid white;
+    color: black;
+    background-color: #eb0869;
+    opacity: 0.9;
+    font-size: 10px;
+}
+
+.contactheader {
+    font-size: 30px;
+    text-align: center;
+    padding: 35px;
+}
+
+form {
+    width: 90%;
+    max-width: 600px;
+    color: white;
+} 
+
+.namephone {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.namephone .inputs {
+    flex-basis: 48%;
+}
+
+
+
+.inputs {
+    margin-bottom: 30px;
+    position: relative;
+    color: white;
+}
+
+input::placeholder {
+    color: #9b9bab;
+}
+
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea::placeholder {
+    color: #9b9bab;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0%;
+    border: 1px solid white;
+    color: white;
+    background-color: #36494E;
+    opacity: 0.9;
+    font-size: 15px;
+}
+
+label {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: white;
+    transition: 0.2s;
+}
+
+button {
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    outline: none;
+    background-color: #36494E;
+    border: 1px solid white;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #56818d;
+}
+
+
+
+/* Project/Blog */
+
+.projectbox {
+    background-image: url(/assets/landingimg.jpg);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 80px;
+    
+
+}
+
+.box {
+    width: 300px;
+    height: 600px;
+    border: solid black;
+    background-color: #36494E;
+    color:white;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.projectimg {
+    width: 250px;
+    height: 200px;
+    border-radius: 5px;
+    border: solid black;
+    margin-top: 10px;
+}
+
+h4 {
+    padding: 18px;
+    text-align: justify;
+    margin-bottom: 8px;
+}
+
+.date{
+    font-size: 14px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: left;
+    padding-left: 18px;
+}
+.readmore {
+    border: solid white;
+    padding: 8px;
+    border-radius: 25px;
+}
+
+.readmore:hover {
+    background-color: #56818d;
+    transition: 0.2s;
+}
+
+.moretab {
+    margin-top: 60px;
+}
