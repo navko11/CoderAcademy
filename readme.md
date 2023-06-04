@@ -8,6 +8,8 @@ My portfolio functions and features are designed to target employers, clients an
 
 The website portfolio is constructed in VScode using only HTML and CSS with various components and properties which adjust to the view of any device being used. VScode extenstions have been used to support the progress of building the website. Certain parts of the website have been enhanced with CSS to have a responsive effect to give some "life" while navigating through the pages. 
 
+Website - https://profilemarkn.netlify.app/
+
 Slide deck presentation https://youtu.be/2XxtqNR0sDQ
 
 
